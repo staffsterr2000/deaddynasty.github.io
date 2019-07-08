@@ -1,1 +1,2 @@
-alert("DEAD DYNASTY, TVAR'!")
+alert("DEAD DYNASTY...");
+alert("TVAR'!");

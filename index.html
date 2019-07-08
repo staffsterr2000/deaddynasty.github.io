@@ -7,15 +7,16 @@
   </head>
   <body>
 
-    <script async src="scripts.js"></script>
+    <script defer src="scripts.js"></script>
 
     <h2> СОСТАВ: </h2>
 
     <ul>
-      <dev id="leader">
+      <div id="leader">
         <li>PHARAOH</li>
-      </dev>
-      <li>Mnogoznaal</li>
+        <img src="JESUS.jpg" height="10%" width="10%" alt="oh, my..." />
+      </div>
+      <li>Mnogo<span id="znaal">znaal</span></li>
       <li>Jeembo</li>
       <li>Acid Drop King</li>
       <li>TECHNO</li>
@@ -23,8 +24,8 @@
 
     <table border = "2px">
       <tr>
-        <td>Number</td>
-        <td>Artist</td>
+        <th>Number</th>
+        <th>Artist</th>
       </tr>
       <tr>
         <td>1</td>
@@ -46,17 +47,29 @@
         <td>5</td>
         <td>TECHNO</td>
       </tr>
-    </table>
-    <br/>
+    </table> <br />
+
+    <form method="POST" action="https://ru.wikipedia.org/wiki/Yung_Lean" target="_blank">
+      <p>Кто лучший(ие): </p>
+      <input type="checkbox" name="artist" value="PHARAOH"> PHARAOH <br />
+      <input type="checkbox" name="artist" value="Mnogoznaal"> Mnogoznaal <br />
+      <input type="checkbox" name="artist" value="Jeembo"> Jeembo <br />
+      <input type="checkbox" name="artist" value="Acid Drop King"> Acid Drop King <br />
+      <input type="checkbox" name="artist" value="TECHNO"> TECHNO <br />
+      <input type="submit" value="Send"> <br /> <br />
+    </form>
 
     <form method="POST" action="https://youtube.com">
-    <input type="text" value="имя пользователя" />
-    <br/>
+      <input type="email" name="email"> <br />
+      <input type="text" name="nick"> <br />
+      <input type="password" name="password"> <br />
+      <input type="submit" value="Send">
+    </form>
 
-    <input type="password" value="пароль" />
-    <br/>
-
-    <input type="submit" value="send">
+    <form method="POST" action="http://soulpost.ru/dmitrij-nagiev-o-zhenshhinax-za-40/" target="_blank">
+      <p>Оставьте Ваш отзыв о сайте...</p>
+      <textarea name="message"></textarea> <br />
+      <input type="submit" value="Send">
     </form>
 
   </body>
