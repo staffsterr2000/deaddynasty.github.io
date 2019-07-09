@@ -7,23 +7,32 @@
   </head>
   <body>
 
-  <script defer src="scripts.js"></script>
+    <script defer src="scripts.js"></script>
+
+    <iframe src="audio/silence.mp3" allow="autoplay" style="display:none"></iframe>
+    <audio autoplay loop>
+      <source src="audio/block.mp3" type="audio/mp3">
+    </audio>
 
     <h1> СОСТАВ DEAD DYNASTY: </h1>
-
     <ul>
       <div id="leader">
         <li>PHARAOH</li>
       </div>
-        <img class="imageArtists" src="pharaoh.jpg" alt="PHARAOH" />
+        <img class="imageArtists" src="img/pharaoh.jpg" alt="PHARAOH" /> <br />
+        <audio src="audio/pharaoh.mp3" controls></audio>
       <li><span id="mnogo">Mnogo</span>znaal</li>
-        <img class="imageArtists" src="mnogoznaal.jpg" alt="Mnogoznaal" />
+        <img class="imageArtists" src="img/mnogoznaal.jpg" alt="Mnogoznaal" /> <br />
+        <audio src="audio/mnogoznaal.mp3" controls></audio>
       <li>Jeembo</li>
-        <img class="imageArtists" src="jeembo.jpg" alt="Jeembo" />
+        <img class="imageArtists" src="img/jeembo.jpg" alt="Jeembo" /> <br />
+        <audio src="audio/jeembo.mp3" controls></audio>
       <li>Acid Drop King</li>
-        <img class="imageArtists" src="acidDropKing.png" alt="Acid Drop King" />
+        <img class="imageArtists" src="img/acidDropKing.png" alt="Acid Drop King" /> <br />
+        <audio src="audio/acidDropKing.mp3" controls></audio>
       <li>TECHNO</li>
-        <img class="imageArtists" src="techno.jpg" alt="TECHNO" />
+        <img class="imageArtists" src="img/techno.jpg" alt="TECHNO" /> <br />
+        <audio src="audio/techno.mp3" controls></audio>
     </ul>
 
     <table align="center" border = "2px">
@@ -74,7 +83,15 @@
       <p>Оставьте Ваш отзыв о сайте...</p>
       <textarea name="message"></textarea> <br />
       <input type="submit" value="Send">
-    </form>
+    </form> <br />
+
+    <div align="center">
+      <iframe height="350" width="500" frameborder="2" allowfullscreen
+      src="http://www.youtube.com/embed?listType=playlist&list=PLp7e_iqGdvxFC4FMJ_UGqAz4ocun1bP8B"></iframe>
+
+      <iframe height="400" width="600" allowfullscreen frameborder="2px"
+      src="http://www.youtube.com/embed/WwtK2Zakmng"></iframe>
+    </div>
 
   </body>
 </html>
