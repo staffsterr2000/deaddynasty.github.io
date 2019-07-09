@@ -5,7 +5,7 @@ var second = first;
 first = "DEAD DYNASTY...";
 
 var audio=document.querySelector("audio");
-audio.volume=0.2;
+audio.volume=0.05;
 
 alert(first);
 alert(second);
