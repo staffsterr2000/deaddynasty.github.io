@@ -1,6 +1,7 @@
 body {
   color: #601E40;
   font-family: Calibri;
+  background-color: #FFC1FF;
 }
 
 #leader {
@@ -8,8 +9,8 @@ body {
   font-size: 130%;
 }
 
-#znaal {
-  color: green;
+#mnogo {
+  color: blue;
   font-family: "Times New Roman";
-  font-size: 160%;
+  font-size: 120%;
 }
